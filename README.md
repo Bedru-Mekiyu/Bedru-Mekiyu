@@ -35,8 +35,8 @@ Principles & priorities
 - Role-based access control (RBAC) and clear operational playbooks for admins.
 
 Contact & collaboration
-- Email: [bedru@example.com](mailto:bedru@example.com)
-- LinkedIn: https://linkedin.com/in/bedru-mekiyu
+- Email: [bedru.mekiyu-ug@aau.edu.et]mailto:bedru.mekiyu-ug@aau.edu.et)
+- LinkedIn: [https://linkedin.com/in/bedru-mekiyu](https://www.linkedin.com/in/bedru-mekiyu-39ba6736a/)
 - Topics I welcome: civic-tech, vital-registration, citizen-feedback, offline-first, privacy, service-delivery, typescript, nodejs, react, mobile-app
 
 Quick checklist to make the profile even stronger
