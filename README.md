@@ -2,6 +2,8 @@
 Software engineer building practical civic‑tech systems that make government services more accessible, accountable, and reliable.
 
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Bedru-Mekiyu&layout=compact&theme=tokyonight)](https://github.com/Bedru-Mekiyu)
+---
 🔭 Currently building
 - **Vital Registration System** — secure, offline-capable platform for birth & death registration with role-based workflows and audit trails.
 - **Citizen Feedback App** — mobile + web platform for collecting, routing, and tracking citizen feedback on public services (SMS / WhatsApp gateway support).
