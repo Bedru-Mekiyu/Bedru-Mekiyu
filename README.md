@@ -1,7 +1,4 @@
-<!-- TITLE (Animated) -->
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=600&size=32&pause=1200&color=7FDBFF&center=true&vCenter=true&random=false&width=650&lines=Hi+—+I'm+Bedru-Mekiyu+👋;Civic-Tech+Software+Engineer;Building+Reliable+Systems+for+Public+Services" alt="Typing Animation" />
-</h1>
+
 
 <p align="center">
   <strong>Engineering secure, offline-capable, and scalable platforms for governments and public institutions.</strong>
@@ -14,7 +11,6 @@
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-0A0A0A?style=for-the-badge&logo=node.js&logoColor=3C873A" />
   <img src="https://img.shields.io/badge/React-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/React_Native-0A0A0A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Flutter-0A0A0A?style=for-the-badge&logo=flutter&logoColor=02569B" />
   <img src="https://img.shields.io/badge/PostgreSQL-0A0A0A?style=for-the-badge&logo=postgresql&logoColor=31648C" />
   <img src="https://img.shields.io/badge/Docker-0A0A0A?style=for-the-badge&logo=docker&logoColor=2496ED" />
