@@ -1,20 +1,20 @@
 # Bedru Mekiyu
 
-**Full-Stack Developer** — TypeScript, React, Node.js
+**Full-Stack Developer** — TypeScript, React, Flutter
 
 I build production-grade applications for enterprise and government.
-Specialty: Offline-first systems, SaaS platforms with payments, enterprise dashboards.
+Specialty: Offline-first systems, SaaS platforms with payments, mobile apps.
 
 ---
 
 ## Tech Stack
 
-| Languages | Frontend | Backend | DevOps |
+| Languages | Frontend | Backend | Mobile |
 |:---|:---|:---|:---|
-| TypeScript | React | Node.js | Docker |
-| JavaScript | Next.js | Express | Vercel |
-| Python | TailwindCSS | PostgreSQL | Railway |
-| | | MongoDB | |
+| TypeScript | React | Node.js | Flutter |
+| JavaScript | Next.js | Express | Kotlin |
+| Python | TailwindCSS | PostgreSQL | |
+| Dart | | MongoDB | |
 
 ---
 
@@ -26,10 +26,23 @@ Rental management system — deployed to production.
 
 - **Stack:** React · Express · MongoDB · TailwindCSS
 - **134 commits** · **Team:** 4 · **Deployed**
-- Manages thousands of rental units. Replaced manual spreadsheets with a real system.
+- Manages thousands of rental units. Replaced manual spreadsheets.
 - RBAC, lease management, payment tracking, audit logging, Telebirr/CBE Birr/Chapa
 
 [rentalapp](https://github.com/Bedru-Mekiyu/rentalapp) · [Live](https://rentalapp-nine-pearl.vercel.app)
+
+---
+
+### BookSwap
+
+Book exchange mobile app.
+
+- **Stack:** Flutter · Kotlin · Node.js
+- **47 commits** · **Team:** 5
+- Users list books, search, and swap with others. Match system for trade proposals.
+- User profiles, book listings, trade tracking, swap status
+
+[BookSwap](https://github.com/bethelihemw/BookSwap)
 
 ---
 
@@ -84,25 +97,14 @@ Offline-first vital registration.
 
 ---
 
-### College-Management
-
-Education management system.
-
-- **Stack:** JavaScript · Express · MongoDB
-- Student, course, faculty management
-- Domain modeling, full CRUD
-
-[College-Management](https://github.com/Bedru-Mekiyu/College-Management)
-
----
-
 ## Summary
 
 | Metric | Value |
 |:---|---:|
 | Production apps | 2 |
-| Total commits | 300+ |
-| Team projects | 2 |
+| Mobile app | 1 (Flutter/Kotlin) |
+| Total commits | 350+ |
+| Team projects | 3 |
 | Community forks | 3+ |
 
 ---
