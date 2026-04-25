@@ -2,7 +2,7 @@
 
 **Full-Stack Developer** — TypeScript, React, Flutter
 
-I build production-grade applications for enterprise and government.
+Building production-grade applications for enterprise and government.
 Specialty: Offline-first systems, SaaS platforms with payments, mobile apps.
 
 ---
@@ -18,18 +18,18 @@ Specialty: Offline-first systems, SaaS platforms with payments, mobile apps.
 
 ---
 
-## Projects
+## Featured Projects
 
 ### rentalapp
 
 Rental management system — deployed.
 
 - **Stack:** React · Express · MongoDB · TailwindCSS
-- **134 commits** · **Team:** 4 · **Deployed:** vercel.app
+- **134 commits** · **Team:** 4 · **Deployed**
 - Manages thousands of rental units. Replaced manual spreadsheets.
-- RBAC, lease management, payment tracking, audit logging, Telebirr/CBE Birr/Chapa
+- RBAC, lease management, payment tracking, integrations
 
-[rentalapp](https://github.com/Bedru-Mekiyu/rentalapp) · [Live](https://rentalapp-nine-pearl.vercel.app)
+[rentalapp](https://github.com/Bedru-Mekiyu/rentalapp)
 
 ---
 
@@ -38,9 +38,9 @@ Rental management system — deployed.
 Citizen feedback platform for government.
 
 - **Stack:** React · Express · MongoDB
-- **65 commits** · **Forks:** 3
+- **65 commits** · **Team:** 4
 - Citizens submit via SMS, WhatsApp, web. Auto-routes to departments.
-- 500+ submissions, 40% faster response
+- 500+ submissions processed, 40% faster response
 
 [civicVoice](https://github.com/Bedru-Mekiyu/civicVoice-app)
 
@@ -48,11 +48,11 @@ Citizen feedback platform for government.
 
 ### Issue-Tracker
 
-Enterprise task management.
+Enterprise task management system.
 
 - **Stack:** Next.js · Prisma · TypeScript
 - **79 commits**
-- Role-based workflows, JWT auth, clean REST API
+- Role-based workflows, JWT auth, PostgreSQL
 
 [Issue-Tracker](https://github.com/Bedru-Mekiyu/Issue-Tracker)
 
@@ -63,22 +63,21 @@ Enterprise task management.
 Inventory dashboard — deployed.
 
 - **Stack:** Next.js · Prisma · TypeScript
-- **26 commits** · **Deployed:** vercel.app
+- **26 commits** · **Deployed**
 - Real-time stock tracking, low-stock alerts, multi-location
-- 85% reduction in discrepancies
 
-[Inventory](https://github.com/Bedru-Mekiyu/Inventory-app) · [Live](https://inventory-app-gules-phi.vercel.app)
+[Inventory](https://github.com/Bedru-Mekiyu/Inventory-app)
 
 ---
 
 ### vital-registration-app
 
-Offline-first vital registration.
+Offline-first vital events registration.
 
 - **Stack:** React · Node.js · PostgreSQL · Prisma
 - **19 commits**
 - Birth/death registration without internet. Syncs when online.
-- Registration: weeks → 24 hours
+- Registration reduced from weeks to 24 hours
 
 [vital-registration](https://github.com/Bedru-Mekiyu/vital-registration-app)
 
@@ -86,25 +85,24 @@ Offline-first vital registration.
 
 ### BookSwap
 
-Book exchange mobile app.
+Book exchange mobile app (Flutter).
 
 - **Stack:** Flutter · Kotlin
 - **47 commits** · **Team:** 5
-- Users list books, search, and swap with others. Match system for trade proposals.
+- Users list books, search, swap with others. Match system for proposals.
 
 [BookSwap](https://github.com/bethelihemw/BookSwap)
 
 ---
 
-## Summary
+## Metrics
 
 | Metric | Value |
 |:---|---:|
-| Production apps | 2 deployed |
-| Mobile app | 1 (Flutter/Kotlin) |
+| Production apps | 2 |
+| Mobile app | 1 |
 | Total commits | 350+ |
 | Team projects | 3 |
-| Community forks | 3+ |
 
 ---
 
