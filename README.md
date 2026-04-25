@@ -35,14 +35,14 @@ Rental management system — deployed.
 
 ### civicVoice-app
 
-Citizen feedback platform for government.
+Citizen feedback platform — deployed.
 
 - **Stack:** React · Express · MongoDB
 - **65 commits** · **Team:** 4 · **Forks:** 3
 - Citizens submit via SMS, WhatsApp, web. Auto-routes to departments.
 - 500+ submissions, 40% faster response
 
-[civicVoice](https://github.com/Bedru-Mekiyu/civicVoice-app)
+[civicVoice](https://github.com/Bedru-Mekiyu/civicVoice-app) · [Live](https://civicvoice-app-1.onrender.com)
 
 ---
 
@@ -67,20 +67,20 @@ Inventory dashboard — deployed.
 - Real-time stock tracking, low-stock alerts, multi-location
 - 85% reduction in discrepancies
 
-[Inventory](https://github.com/Bedru-Mekiyu/Inventory-app)
+[Inventory](https://github.com/Bedru-Mekiyu/Inventory-app) · [Live](https://inventory-app-5kb4.onrender.com)
 
 ---
 
 ### vital-registration-app
 
-Offline-first vital registration.
+Offline-first vital registration — deployed.
 
 - **Stack:** React · Node.js · PostgreSQL · Prisma
 - **19 commits**
 - Birth/death registration without internet. Syncs when online.
 - Registration: weeks → 24 hours
 
-[vital-registration](https://github.com/Bedru-Mekiyu/vital-registration-app)
+[vital-registration](https://github.com/Bedru-Mekiyu/vital-registration-app) · [Live](https://vital-registration-app.onrender.com)
 
 ---
 
@@ -100,7 +100,7 @@ Book exchange mobile app.
 
 | Metric | Value |
 |:---|---:|
-| Production apps | 2 |
+| Production apps | 4 deployed |
 | Mobile app | 1 |
 | Total commits | 350+ |
 | Team projects | 3 |
