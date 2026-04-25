@@ -2,7 +2,7 @@
 
 **Full-Stack Developer** — TypeScript, React, Flutter
 
-I build production-grade applications for enterprise and government.
+Building production-grade applications for enterprise and government.
 Specialty: Offline-first systems, SaaS platforms with payments, mobile apps.
 
 ---
@@ -31,8 +31,6 @@ Rental management system — deployed.
 
 [rentalapp](https://github.com/Bedru-Mekiyu/rentalapp)
 
----
-
 ### civicVoice-app
 
 Citizen feedback platform — deployed.
@@ -44,8 +42,6 @@ Citizen feedback platform — deployed.
 
 [civicVoice](https://github.com/Bedru-Mekiyu/civicVoice-app) · [Live](https://civicvoice-app-1.onrender.com)
 
----
-
 ### Issue-Tracker
 
 Enterprise task management.
@@ -55,8 +51,6 @@ Enterprise task management.
 - Role-based workflows, JWT auth
 
 [Issue-Tracker](https://github.com/Bedru-Mekiyu/Issue-Tracker)
-
----
 
 ### Inventory-app
 
@@ -69,8 +63,6 @@ Inventory dashboard — deployed.
 
 [Inventory](https://github.com/Bedru-Mekiyu/Inventory-app) · [Live](https://inventory-app-5kb4.onrender.com)
 
----
-
 ### vital-registration-app
 
 Offline-first vital registration — deployed.
@@ -78,11 +70,9 @@ Offline-first vital registration — deployed.
 - **Stack:** React · Node.js · PostgreSQL · Prisma
 - **19 commits**
 - Birth/death registration without internet. Syncs when online.
-- Registration: weeks → 24 hours
+- Registration: weeks to 24 hours
 
 [vital-registration](https://github.com/Bedru-Mekiyu/vital-registration-app) · [Live](https://vital-registration-app.onrender.com)
-
----
 
 ### BookSwap
 
