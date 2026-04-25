@@ -2,7 +2,7 @@
 
 **Full-Stack Developer** — TypeScript, React, Flutter
 
-Building production-grade applications for enterprise and government.
+I build production-grade applications for enterprise and government.
 Specialty: Offline-first systems, SaaS platforms with payments, mobile apps.
 
 ---
@@ -18,15 +18,15 @@ Specialty: Offline-first systems, SaaS platforms with payments, mobile apps.
 
 ---
 
-## Featured Projects
+## Projects
 
 ### rentalapp
 
 Rental management system — deployed.
 
 - **Stack:** React · Express · MongoDB · TailwindCSS
-- **134 commits** · **Team:** 4 · **Deployed**
-- Manages thousands of rental units. Replaced manual spreadsheets.
+- **134 commits** · **Team:** 4
+- Manages thousands of rental units. Replaced spreadsheets.
 - RBAC, lease management, payment tracking, integrations
 
 [rentalapp](https://github.com/Bedru-Mekiyu/rentalapp)
@@ -38,9 +38,9 @@ Rental management system — deployed.
 Citizen feedback platform for government.
 
 - **Stack:** React · Express · MongoDB
-- **65 commits** · **Team:** 4
+- **65 commits** · **Team:** 4 · **Forks:** 3
 - Citizens submit via SMS, WhatsApp, web. Auto-routes to departments.
-- 500+ submissions processed, 40% faster response
+- 500+ submissions, 40% faster response
 
 [civicVoice](https://github.com/Bedru-Mekiyu/civicVoice-app)
 
@@ -48,11 +48,11 @@ Citizen feedback platform for government.
 
 ### Issue-Tracker
 
-Enterprise task management system.
+Enterprise task management.
 
 - **Stack:** Next.js · Prisma · TypeScript
 - **79 commits**
-- Role-based workflows, JWT auth, PostgreSQL
+- Role-based workflows, JWT auth
 
 [Issue-Tracker](https://github.com/Bedru-Mekiyu/Issue-Tracker)
 
@@ -63,8 +63,9 @@ Enterprise task management system.
 Inventory dashboard — deployed.
 
 - **Stack:** Next.js · Prisma · TypeScript
-- **26 commits** · **Deployed**
+- **26 commits**
 - Real-time stock tracking, low-stock alerts, multi-location
+- 85% reduction in discrepancies
 
 [Inventory](https://github.com/Bedru-Mekiyu/Inventory-app)
 
@@ -72,12 +73,12 @@ Inventory dashboard — deployed.
 
 ### vital-registration-app
 
-Offline-first vital events registration.
+Offline-first vital registration.
 
 - **Stack:** React · Node.js · PostgreSQL · Prisma
 - **19 commits**
 - Birth/death registration without internet. Syncs when online.
-- Registration reduced from weeks to 24 hours
+- Registration: weeks → 24 hours
 
 [vital-registration](https://github.com/Bedru-Mekiyu/vital-registration-app)
 
@@ -85,11 +86,11 @@ Offline-first vital events registration.
 
 ### BookSwap
 
-Book exchange mobile app (Flutter).
+Book exchange mobile app.
 
 - **Stack:** Flutter · Kotlin
 - **47 commits** · **Team:** 5
-- Users list books, search, swap with others. Match system for proposals.
+- Users list books, search, swap with others.
 
 [BookSwap](https://github.com/bethelihemw/BookSwap)
 
