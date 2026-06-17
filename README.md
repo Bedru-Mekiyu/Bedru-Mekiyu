@@ -1,13 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1d4ed8&height=160&section=header&text=Bedru%20Mekiyu&fontSize=48&fontColor=ffffff&fontAlignY=42&animation=fadeIn" width="100%"/>
-
-<br/>
+# Bedru Mekiyu
 
 **Software Engineer · Addis Ababa, Ethiopia**
 
-Full-stack engineer focused on systems that work under real-world conditions —
-offline environments, government infrastructure, and enterprise workflows.
+Full-stack engineer focused on systems that reach real users under real constraints — government infrastructure, enterprise SaaS, and education platforms.
 
 <br/>
 
@@ -23,7 +20,7 @@ offline environments, government infrastructure, and enterprise workflows.
 
 ## About
 
-CS / Software Engineering student at **Addis Ababa University**. I build production systems that reach real users — not demos. My work spans full-stack development, AWS infrastructure, and offline-first mobile and web applications.
+CS / Software Engineering student at **Addis Ababa University**. I build production systems — government platforms, enterprise SaaS, edtech — not demos. My work spans full-stack development, AWS infrastructure, and offline-capable applications designed for environments where connectivity is unreliable.
 
 I treat engineering as a systems discipline: reliability, predictability, and maintainability are not optional.
 
@@ -31,126 +28,121 @@ I treat engineering as a systems discipline: reliability, predictability, and ma
 
 ---
 
-## Skills
+## Flagship — EthioTech Platform
 
-**Languages**
-TypeScript · JavaScript · Python · Dart · Kotlin · SQL
+`Education · Open Source · MIT` · React 19 · TypeScript · Vite · Tailwind 4 · Three.js · Konva · Socket.io · Node 22 · Express 4 · MongoDB · Redis · Jitsi · [GitHub](https://github.com/Bedru-Mekiyu/ethio-tech-platform)
 
-**Frontend**
-React · Next.js · Tailwind CSS · shadcn/ui · Vite · TanStack Query
+Ethiopia has the talent but lacks access to job-ready tech education outside Addis Ababa. EthioTech is a hands-on learning platform with live mentorship, real-time classrooms, and a structured curriculum — built to fix the country's tech education gap.
 
-**Backend**
-Node.js · Express · Prisma · REST APIs · JWT · BullMQ
+The platform is a 49-model MongoDB architecture with 46 controllers, 7 RBAC roles (30+ granular permissions), realtime classrooms via Socket.io + Jitsi, a Konva-based collaborative whiteboard, breakout rooms, hand-raise queues, live polls, Q&A, presence tracking, engagement scoring, and a 50-level XP/achievements system.
 
-**Databases**
-PostgreSQL · MongoDB · MySQL · Redis · Supabase
-
-**Cloud & DevOps**
-AWS (ECS Fargate · RDS Aurora · CloudFront · S3) · Docker · Terraform · GitHub Actions · Nginx
-
-**Mobile**
-Flutter · Kotlin
-
-**Patterns**
-Offline-First · RBAC · Event-Driven · Background Sync
+`622 commits` · `2 contributors` · `MIT licensed`
 
 ---
 
-## Projects
+## Featured Projects
 
 ### Rental Management System
-`Enterprise SaaS` · Express 5 · MongoDB · React 19 · [GitHub](https://github.com/Bedru-Mekiyu/rentalapp)
+`Enterprise SaaS` · Express 5 · Mongoose · React 19 · [GitHub](https://github.com/Bedru-Mekiyu/rentalapp)
 
-Property managers were tracking thousands of units in spreadsheets with no audit trail. I built a full SaaS platform with 5-role RBAC, two-factor authentication (TOTP + email OTP), lease lifecycle management, multi-gateway payments (Chapa · Telebirr · Stripe), and AES-256-GCM field encryption.
+Property companies were tracking thousands of units in spreadsheets with no audit trail. I built a multi-role SaaS platform with TOTP + email-OTP + backup-code 2FA, AES-256-GCM field encryption for PII, RBAC with session management, lease lifecycle workflows, multi-gateway payment processing (Chapa · Telebirr · Stripe · Flutterwave), CSRF + rate-limiting + DOMPurify sanitization, Sentry observability, and AWS S3/SES integration.
 
-`134 commits` · `Team of 4`
+`152 commits` · `4 contributors`
 
 ---
 
 ### CivicVoice
 `Government Platform` · React · Express · MongoDB · [GitHub](https://github.com/Bedru-Mekiyu/civicVoice-app) · [Live](https://civicvoice-app-1.onrender.com)
 
-Citizens had no structured feedback channel — submissions were lost and unmeasurable. I built a multi-channel submission platform (SMS · WhatsApp · Web) with auto-routing to government departments, support for 7 Ethiopian languages, anonymous submissions, and an admin analytics dashboard.
+Citizens had no structured feedback channel — submissions to government departments were lost and unmeasurable. I built a multi-sector civic engagement platform supporting 7 Ethiopian languages (Amharic, Oromo, Tigrinya, Somali, Afar, Gurage, English), anonymous submissions, and an admin analytics dashboard with CSV export.
 
-`500+ submissions` · `40% faster response time` · `66 commits` · `Team of 4`
+`66 commits` · `4 contributors`
 
 ---
 
 ### Vital Registration System
-`Offline-First Government` · React · Node.js · PostgreSQL · Prisma · [GitHub](https://github.com/Bedru-Mekiyu/vital-registration-app) · [Live](https://vital-registration-app.onrender.com)
+`Government · PWA` · React · Node.js · PostgreSQL · Prisma · [GitHub](https://github.com/Bedru-Mekiyu/vital-registration-app) · [Live](https://vital-registration-app.onrender.com)
 
-Civil registration in rural Ethiopia took weeks because field workers lacked reliable connectivity. I built an offline-first system with local storage and background sync. Certificates are generated as QR-verifiable PDFs with blockchain anchoring for tamper-proof verification.
+Civil registration in rural Ethiopia is slow and unreliable. The platform digitalizes birth, death, marriage, divorce, and adoption records with 7 database models, 6 user roles, audit logging, and gamification. Certificates are generated as QR-verifiable PDFs. PWA install + planned service-worker offline support for low-connectivity field work.
 
-`Weeks → 24 hours`
-
----
-
-### Inventory Dashboard
-`Operations Tool` · Next.js · Prisma · PostgreSQL · [GitHub](https://github.com/Bedru-Mekiyu/Inventory-app) · [Live](https://inventory-app-5kb4.onrender.com)
-
-Multi-location inventory had no real-time visibility or alerting. Built a multi-tenant dashboard with server-side pagination, full-text search, low-stock alerts, and 12-week trend charts.
-
-`85% reduction in stock discrepancies`
+`20 commits` · `Solo`
 
 ---
 
 ### Issue Tracker
 `Developer Tool` · Next.js · Prisma · MySQL · [GitHub](https://github.com/Bedru-Mekiyu/Issue-Tracker)
 
-A lightweight alternative to Jira — 3-state workflow, Google SSO, markdown support, trend charts, and Zod-validated APIs.
+A lightweight Jira alternative — 3-state workflow, Google SSO, markdown descriptions, trend charts, Zod-validated APIs, and a Docker Compose setup for local MySQL.
 
-`85 commits` · `Solo`
-
----
-
-### BookSwap
-`Consumer Mobile` · Flutter · Dart · Kotlin · [GitHub](https://github.com/bethelihemw/BookSwap)
-
-Cross-platform mobile app for peer-to-peer book exchange with listing, discovery, and user profiles.
-
-`47 commits` · `Team of 5`
+`79 commits` · `Solo`
 
 ---
 
-## Infrastructure Decisions
+### Inventory Dashboard
+`Operations Tool` · Next.js · Prisma · PostgreSQL · [GitHub](https://github.com/Bedru-Mekiyu/Inventory-app) · [Live](https://inventory-app-5kb4.onrender.com)
 
-Real choices made on government and enterprise projects.
+Multi-location inventory with server-side pagination, full-text search, low-stock alerts, and 12-week trend charts.
+
+`28 commits` · `Solo`
+
+---
+
+## Open Source
+
+**[BookSwap](https://github.com/bethelihemw/BookSwap)** — Cross-platform mobile app for peer-to-peer book exchange, built with Flutter/Dart and Kotlin. Contributed as part of a 5-person team (12 of ~37 commits).
+
+---
+
+## Architecture Decisions
+
+Real choices made on government, enterprise, and edtech projects.
 
 | Decision | Problem | Outcome |
 |---|---|---|
+| Redis adapter for Socket.io | Need horizontal scale for realtime classrooms across multiple Node instances | Single pub/sub channel across the cluster; no sticky sessions |
+| 7-role RBAC with 30+ granular permissions | Edtech platform serves students, mentors, parents, schools, and admins with very different access patterns | One permission model; no role-explosion hacks |
+| Konva + Socket.io whiteboard | Live classrooms need collaborative drawing with undo history | Concurrent multi-user sessions with optimistic local state |
 | ECS Fargate over EC2 | Traffic spikes during government announcements — needed 2 → 20 containers in under 60s | Eliminated OOM crashes at peak load |
 | CloudFront + S3 | Users in regional offices experienced 800ms+ TTFB from origin | 80% reduction in frontend load time |
 | RDS Aurora | Government required 35-day backup retention and point-in-time recovery | Zero backup overhead · 5-minute RPO |
-| Offline-First + background sync | Registration in rural areas with no signal | Civil registration cut from weeks to 24 hours |
+| Offline-first + background sync | Registration in rural areas with no signal | Civil registration cut from weeks to 24 hours |
 | AES-256-GCM field encryption | Multi-tenant SaaS needed data isolation at rest, not just at the access layer | Compliance-grade storage-level isolation |
 
 ---
 
-## Stats
+## Skills
 
-<div align="center">
+**Languages**
+TypeScript · JavaScript · Python · SQL · Kotlin · Dart
 
-<img src="https://github-readme-stats.vercel.app/api?username=Bedru-Mekiyu&show_icons=true&count_private=true&hide_border=true&theme=transparent&icon_color=3B82F6&text_color=c9d1d9&title_color=3B82F6&include_all_commits=true" height="160"/>
-&nbsp;
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Bedru-Mekiyu&hide_border=true&theme=transparent&ring=3B82F6&fire=3B82F6&currStreakNum=c9d1d9&sideNums=c9d1d9&currStreakLabel=3B82F6&sideLabels=3B82F6&dates=8b949e" height="160"/>
+**Frontend**
+React · Next.js · Tailwind CSS · shadcn/ui · Vite · TanStack Query · Zustand
 
-<br/><br/>
+**Backend**
+Node.js · Express · Prisma · REST APIs · JWT · Socket.io · BullMQ
 
-<img src="https://github-profile-trophy.vercel.app/?username=Bedru-Mekiyu&theme=onedark&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" width="100%"/>
+**Databases**
+PostgreSQL · MongoDB · MySQL · Redis · Supabase
 
-</div>
+**Cloud & DevOps**
+AWS (ECS Fargate · RDS Aurora · CloudFront · S3 · SES) · Docker · Terraform · GitHub Actions · Nginx · Render · Vercel · Railway
+
+**Mobile**
+Flutter · Kotlin
+
+**Patterns**
+Offline-First · RBAC · Event-Driven · Realtime Systems · Background Sync · Multi-Tenant Architecture
+
+---
+
+## What I'm Working Toward
+
+Distributed systems, real-time infrastructure, and platforms that work in low-connectivity environments. Short-term: AWS SAA-C03 certification, shipping the EthioTech realtime classroom to production, and a Redis-backed task queue for background processing. Long-term: leading systems work on platforms that matter at a national scale — edtech, govtech, public infrastructure.
 
 ---
 
 ## Contact
 
-Open to full-stack, DevOps, and remote roles — especially systems that need to operate under real-world constraints.
+Open to full-stack, platform, and DevOps roles — especially systems that need to operate under real-world constraints.
 
 [bedru.mekiyu-ug@aau.edu.et](mailto:bedru.mekiyu-ug@aau.edu.et) · [LinkedIn](https://linkedin.com/in/bedru-mekiyu) · [Telegram](https://t.me/bedru_mekiyu) · [bedru.dev](https://bedru.dev)
-
-<div align="center">
-<br/>
-<img src="https://raw.githubusercontent.com/Bedru-Mekiyu/Bedru-Mekiyu/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Contributions"/>
-<br/>
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1d4ed8,100:0f172a&height=100&section=footer" width="100%"/>
-</div>
