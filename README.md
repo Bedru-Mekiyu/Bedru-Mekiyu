@@ -22,7 +22,7 @@ I design and ship software that operates under real conditions — offline envir
 
 ---
 
-## Featured Projects
+## Projects
 
 ### CivicVoice — Government Citizen Feedback Platform
 
@@ -126,10 +126,6 @@ The CivicVoice deployment is the concrete evidence behind my AWS/DevOps capabili
 Full architecture decision log and diagram: [bedru.dev/#aws-case-study](https://bedru.dev/#aws-case-study)
 
 ---
-
-## GitHub Stats
-
-![Bedru's GitHub stats](https://github-readme-stats.vercel.app/api?username=Bedru-Mekiyu&show_icons=true&theme=default&hide_border=true&include_all_commits=true&count_private=false)
 
 ---
 
