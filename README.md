@@ -1,128 +1,101 @@
 # Bedru Mekiyu
 
-**Full-Stack Engineer · Cloud & DevOps** — Addis Ababa, Ethiopia
+**Full-Stack Software Engineer · Cloud & DevOps** — Addis Ababa, Ethiopia
 
-I build offline-first civic platforms, multi-tenant enterprise systems, and scalable AWS cloud infrastructure. Software Engineering / Computer Science student at Addis Ababa University, shipping production systems designed for reliability, offline execution, and operational maintainability.
+I build full-stack web applications, backend APIs, and cloud-ready systems with TypeScript, React, Next.js, Node.js, Python, PostgreSQL, MongoDB, Docker, and AWS. Software Engineering / Computer Science student at Addis Ababa University with hands-on experience shipping real-world business platforms, educational management systems, and automated CI/CD workflows.
 
-🌐 **Portfolio:** [portfolio-bedru.vercel.app](https://portfolio-bedru.vercel.app/)
-💼 **LinkedIn:** [linkedin.com/in/bedru-mekiyu](https://www.linkedin.com/in/bedru-mekiyu)
-🐙 **GitHub:** [@Bedru-Mekiyu](https://github.com/Bedru-Mekiyu)
+🌐 **Portfolio:** [portfolio-bedru.vercel.app](https://portfolio-bedru.vercel.app/)  
+💼 **LinkedIn:** [linkedin.com/in/bedru-mekiyu-39ba6736a](https://www.linkedin.com/in/bedru-mekiyu-39ba6736a)  
+🐙 **GitHub:** [@Bedru-Mekiyu](https://github.com/Bedru-Mekiyu)  
 ✉️ **Email:** [bedru.mekiyu-ug@aau.edu.et](mailto:bedru.mekiyu-ug@aau.edu.et)
 
 ---
 
 ## 🛠️ Technical Competencies
 
-- **Frontend Engineering:** TypeScript, React, Next.js, TailwindCSS, Flutter, Dart
-- **Backend & API Systems:** Node.js, Express, REST APIs, WebSockets, Redis, BullMQ, JWT Authentication, RBAC
-- **Data & Persistence:** PostgreSQL, MongoDB, Prisma ORM, Supabase, IndexedDB, Service Worker Caching
-- **Cloud Infrastructure & DevOps:** AWS (ECS Fargate, RDS Aurora, CloudFront, S3, EC2, VPC, IAM, CloudWatch), Docker, Terraform, GitHub Actions, Nginx, Linux/Bash
-- **System Patterns:** Offline-First PWA, Multi-Tenant RBAC, Event-Driven Task Queues, Synchronization Architectures
+- **Frontend Engineering:** TypeScript, JavaScript, React (18/19), Next.js (App Router), Tailwind CSS, Radix UI, TanStack Query, Zustand, Flutter, Dart
+- **Backend & APIs:** Node.js, Express (v4/v5), REST APIs, WebSockets, Python (FastAPI), PHP (Laravel), JWT Authentication, Multi-Tenant RBAC, TOTP 2FA
+- **Databases & ORM:** PostgreSQL, MongoDB (Mongoose), MySQL, Prisma ORM, Supabase (Postgres & RLS), Redis (Caching & Rate Limiting)
+- **DevOps & Cloud Infrastructure:** Docker, Docker Compose, GitHub Actions CI/CD, AWS Foundations (S3, SES, EC2, IAM, VPC), Linux/Bash, Nginx, Vercel, Render
+- **Testing & Quality:** Vitest, Jest, Supertest, PyTest, React Testing Library, ESLint, Prettier
 
 ---
 
-## 🚀 Featured Portfolio Repositories
+## 🚀 Featured Engineering Projects
 
-### 🏛️ CivicVoice — Government Citizen Feedback Platform
-> Multi-channel civic platform accepting submissions via SMS, WhatsApp, and Web, automatically routing issues to government departments with real-time analytics.
+### 🏢 Rental Management System (RMS)
+> Enterprise rental management platform built for the Ethiopian Islamic Affairs Supreme Council to handle property leases, tenant records, and payment tracking.
 
-- **Architecture Highlights:** Containerized microservices on AWS ECS Fargate with CloudFront CDN edge caching and RDS Aurora relational storage.
-- **Impact & Scale:** 500+ submissions processed with a 40% reduction in departmental response times.
-- **Tech Stack:** `React` · `Express` · `MongoDB` · `AWS ECS` · `CloudFront` · `RDS`
-- 🔗 **Repository:** [Bedru-Mekiyu/civicVoice-app](https://github.com/Bedru-Mekiyu/civicVoice-app)
-- 🌐 **Live Application:** [civicVoice-app-1.onrender.com](https://civicvoice-app-1.onrender.com)
-
----
-
-### 🏢 Rental Management System
-> Multi-tenant enterprise rental management platform replacing manual spreadsheet tracking with structured lease lifecycles and complete audit logs.
-
-- **Architecture Highlights:** End-to-end Role-Based Access Control (RBAC) across Admin, Manager, and Agent tiers secured via JWT authentication.
-- **Impact & Scale:** Manages thousands of rental unit states and maintains immutable historical payment records.
-- **Tech Stack:** `React` · `Express` · `MongoDB` · `JWT` · `RBAC` · `TailwindCSS`
+- **Architecture:** Decoupled architecture with React, TypeScript, and Zustand on the frontend, and Express 5 with MongoDB/Mongoose on the backend.
+- **Key Engineering:** Multi-tier Role-Based Access Control (Admin, Property Manager, Agent, Tenant), TOTP two-factor authentication (`speakeasy`), Redis-backed rate limiting, AWS S3 document uploads, AWS SES email alerts, scheduled lease expiration cron tasks, and Excel/CSV export pipelines.
+- **Tech Stack:** `React` · `TypeScript` · `Express 5` · `MongoDB` · `AWS S3/SES` · `Redis` · `Zustand`
 - 🔗 **Repository:** [Bedru-Mekiyu/rentalapp](https://github.com/Bedru-Mekiyu/rentalapp)
 
 ---
 
-### 📜 Vital Registration System
-> Offline-first civil registration application for low-connectivity government offices, queuing records locally and syncing upon reconnection.
+### 🎓 LearnSpace — Learning Management & Content System
+> Full-stack LMS and educational content management platform developed during full-stack web engineering internship at Mizan Institute of Technology.
 
-- **Architecture Highlights:** Service Worker request caching, IndexedDB local persistence, and transactional background synchronization engines.
-- **Impact & Scale:** Reduced record registration turnaround times from weeks to under 24 hours in regional municipal offices.
-- **Tech Stack:** `React` · `Node.js` · `PostgreSQL` · `Prisma` · `Service Worker` · `Background Sync`
-- 🔗 **Repository:** [Bedru-Mekiyu/vital-registration-app](https://github.com/Bedru-Mekiyu/vital-registration-app)
-- 🌐 **Live Application:** [vital-registration-app.onrender.com](https://vital-registration-app.onrender.com)
+- **Architecture:** Modular monolith featuring a React 19 SPA served via Nginx and an Express 5 backend with Socket.IO real-time event updates.
+- **Key Engineering:** Role-based course management, strict TypeScript domain modeling, Docker multi-stage containerization, and a comprehensive 41-suite automated test pipeline.
+- **Tech Stack:** `React 19` · `Express 5` · `TypeScript` · `MongoDB` · `Socket.IO` · `Docker` · `Nginx`
+- 🔗 **Repository:** [Bedru-Mekiyu/Internship](https://github.com/Bedru-Mekiyu/Internship)
 
 ---
 
-### 📦 Multi-Location Inventory Dashboard
-> Operational inventory tracking platform featuring real-time reconciliation workflows and automated low-stock alerting across distribution nodes.
+### 🌐 EthioTech Platform
+> Real-time engineering education platform featuring low-bandwidth WebRTC video classrooms and interactive collaboration tools.
 
-- **Architecture Highlights:** Event-driven WebSocket state broadcasts paired with strongly typed Prisma relational queries.
-- **Impact & Scale:** Achieved an 85% reduction in multi-location inventory reconciliation discrepancies.
-- **Tech Stack:** `Next.js` · `Prisma` · `TypeScript` · `PostgreSQL` · `WebSockets`
+- **Architecture:** React frontend paired with an event-driven Node.js backend using Socket.IO with a Redis adapter for distributed real-time communication.
+- **Key Engineering:** LiveKit and Agora WebRTC classroom integration, Winston structured logging, rate limiting, and automated Vitest/Supertest test suites.
+- **Tech Stack:** `React` · `TypeScript` · `WebRTC (LiveKit)` · `Socket.IO` · `Redis` · `MongoDB` · `Vitest`
+- 🔗 **Repository:** [Bedru-Mekiyu/ethio-tech-platform](https://github.com/Bedru-Mekiyu/ethio-tech-platform)
+
+---
+
+### 📦 Modern Inventory Dashboard
+> Operational inventory tracking platform built with the latest React 19 and Next.js 16 server-first architecture.
+
+- **Architecture:** Next.js 16 App Router application utilizing React Server Components and Prisma 7 querying PostgreSQL.
+- **Key Engineering:** Strongly typed database access via Prisma with PostgreSQL adapter, modern session authentication with Stack Auth, and interactive stock analytics charts with Recharts.
+- **Tech Stack:** `Next.js 16` · `React 19` · `TypeScript` · `Prisma 7` · `PostgreSQL` · `Stack Auth`
 - 🔗 **Repository:** [Bedru-Mekiyu/Inventory-app](https://github.com/Bedru-Mekiyu/Inventory-app)
 
 ---
 
 ### 🎯 Typed Issue Tracker
-> Role-aware task management application with state-machine workflow state transitions and strict role-filtered views.
+> Minimalist issue and bug tracking application featuring state transitions, team member assignments, and automated test coverage.
 
-- **Architecture Highlights:** Next.js API routes with JWT auth guards and Prisma relational model validation.
-- **Tech Stack:** `Next.js` · `Prisma` · `TypeScript` · `JWT` · `PostgreSQL`
+- **Architecture:** Next.js application with NextAuth.js session guards, Prisma ORM, and MySQL database persistence.
+- **Key Engineering:** Strict Zod schema validation, Radix UI Themes accessible component system, and automated unit/integration testing with Vitest.
+- **Tech Stack:** `Next.js` · `TypeScript` · `Prisma` · `MySQL` · `NextAuth` · `Vitest` · `Radix UI`
 - 🔗 **Repository:** [Bedru-Mekiyu/Issue-Tracker](https://github.com/Bedru-Mekiyu/Issue-Tracker)
 
 ---
 
 ### 📚 BookSwap — Mobile Exchange Network
-> Cross-platform mobile application enabling peer-to-peer book discovery, listing management, and swap requests.
+> Collaborative cross-platform mobile application enabling peer-to-peer book discovery, listing management, and swap requests.
 
-- **Architecture Highlights:** Clean architectural separation for cross-platform Android and iOS deployments.
-- **Tech Stack:** `Flutter` · `Dart` · `Kotlin` · `REST API`
-- 🔗 **Repository:** [bethelihemw/BookSwap](https://github.com/bethelihemw/BookSwap)
-
----
-
-## 🏗️ Cloud Infrastructure & Systems Architecture Case Study
-
-### CivicVoice Production Infrastructure (AWS)
-- **ECS Fargate Auto-Scaling:** Configured automatic scaling policies (2 → 20 containers) responding to traffic spikes under 60 seconds, eliminating early EC2 memory exhaustion failure modes.
-- **CloudFront CDN Optimization:** Edge caching reduced TTFB from ~2.4s to ~180ms for regional users across Ethiopia (80% page load optimization).
-- **RDS Aurora Resilience:** Point-in-time recovery with 35-day retention and a 5-minute RPO target without manual snapshot overhead.
-
-```
-┌─────────────────┐
-│   CloudFront    │ (CDN / Edge)
-└────────┬────────┘
-         │
-┌────────▼────────┐
-│ App Load Bal.   │
-└────────┬────────┘
-         │
-┌────────▼────────┐
-│  ECS Fargate    │ (2 - 20 tasks)
-└────────┬────────┘
-         │
-┌────────▼────────┐
-│  RDS Aurora     │ (PostgreSQL)
-└─────────────────┘
-```
+- **Architecture:** Cross-platform Flutter mobile client utilizing Riverpod for robust application state management.
+- **Key Engineering:** Clean separation between mobile views, service layers, and REST API consumption. Built collaboratively as a team engineering project.
+- **Tech Stack:** `Flutter` · `Dart` · `Riverpod` · `REST API`
+- 🔗 **Repository:** [Bedru-Mekiyu/BookSwap-Flutter](https://github.com/Bedru-Mekiyu/BookSwap-Flutter)
 
 ---
 
-## 📌 Specialized Technical Repositories
+## ⚙️ Cloud, DevOps & Systems Practice
 
-- [`ethio-tech-platform`](https://github.com/Bedru-Mekiyu/ethio-tech-platform) — Event-driven backend service with Redis task queues.
-- [`game-finder--app`](https://github.com/Bedru-Mekiyu/game-finder--app) — Rawg API client built with React and TypeScript.
-- [`events-nextjs`](https://github.com/Bedru-Mekiyu/events-nextjs) — Serverless Next.js event management platform.
-- [`first-CI-CD`](https://github.com/Bedru-Mekiyu/first-CI-CD) — Automated deployment workflows using GitHub Actions.
-- [`fastapi-issue-tracker`](https://github.com/Bedru-Mekiyu/fastapi-issue-tracker) — Lightweight Python/FastAPI backend service.
+- **CI/CD Automation:** Configured automated GitHub Actions workflows across 19+ repositories enforcing linting, strict TypeScript type checking, and automated test execution on every commit and pull request.
+- **Containerization:** Built multi-stage Dockerfiles and Docker Compose service configurations (`LearnSpace LMS`, `Amazon clone`) optimizing image layers and isolating runtime environments.
+- **Cloud Architecture & Foundations:** Completed rigorous AWS solutions architecture and cloud support training covering VPC network design, IAM least-privilege security policies, EC2, S3, CloudWatch monitoring, and AWS SDK service integrations (S3, SES).
+- **Web Servers & Reverse Proxies:** Configured Nginx reverse proxies, SSL termination, and production deployment environments on Render and Vercel.
 
 ---
 
 ## 📜 Verified Certifications & Technical Learning
 
-- ☁️ **AWS Certified Solutions Architect — Associate (SAA-C03) Prep** — [View Credential](https://skillbuilder.aws/learn/HGQZF26N6R/exam-prep-summary-aws-certified-solutions-architect--associate-saac03--english/874J6BR818)
+- ☁️ **AWS Cloud Support Associate Professional Certificate** — Verified Training & Assessment
+- ☁️ **AWS Certified Solutions Architect — Associate (SAA-C03) Preparation** — [View Credential](https://skillbuilder.aws/learn/HGQZF26N6R/exam-prep-summary-aws-certified-solutions-architect--associate-saac03--english/874J6BR818)
 - ☁️ **AWS Cloud Practitioner Essentials** — [View Credential](https://skillbuilder.aws/learn/94T2BEN85A/aws-cloud-practitioner-essentials/8D79F3AVR7)
 - ⚙️ **DevOps Complete Course (O'Reilly)** — [View Credential](https://www.credly.com/badges/2832eb98-2580-4f1a-bc33-ed693cd47536/public_url)
 - ⚙️ **DevOps Fundamentals (O'Reilly)** — [View Credential](https://www.credly.com/badges/627b39e0-3cf5-4d79-8931-5adec49731e8/public_url)
@@ -135,8 +108,8 @@ I build offline-first civic platforms, multi-tenant enterprise systems, and scal
 ## 📬 Connect & Contact
 
 - **Portfolio:** [portfolio-bedru.vercel.app](https://portfolio-bedru.vercel.app/)
-- **LinkedIn:** [linkedin.com/in/bedru-mekiyu](https://www.linkedin.com/in/bedru-mekiyu)
+- **LinkedIn:** [linkedin.com/in/bedru-mekiyu-39ba6736a](https://www.linkedin.com/in/bedru-mekiyu-39ba6736a)
 - **GitHub:** [@Bedru-Mekiyu](https://github.com/Bedru-Mekiyu)
 - **Email:** [bedru.mekiyu-ug@aau.edu.et](mailto:bedru.mekiyu-ug@aau.edu.et)
 
-*Available for full-stack engineering, DevOps/cloud engineering, and distributed systems roles.*
+*Available for Full-Stack Software Engineering, Backend API Development, and Cloud/DevOps roles.*
