@@ -32,7 +32,7 @@ Software Engineering student at Addis Ababa University (2023–2027) building re
   `PHP 8.4` · `Laravel 11` · `Filament v3` · `MySQL` · `Redis` · `Africa's Talking` · `PHPUnit`
 
 - **[Modern Inventory Dashboard](https://github.com/Bedru-Mekiyu/Inventory-app)**  
-  Multi-tenant inventory tracking platform built with Next.js 16 App Router, React 19 Server Components, Prisma 7, PostgreSQL, cookie-based session security via Stack Auth, and interactive analytics via Recharts.  
+  Multi-tenant inventory management system providing real-time stock tracking, category hierarchy modeling, and low-stock alerts, built with Next.js 16 App Router, React 19 Server Components, Prisma 7, PostgreSQL, Stack Auth session security, and Recharts analytics.  
   `Next.js 16` · `React 19` · `TypeScript` · `Prisma 7` · `PostgreSQL` · `Stack Auth`
 
 - **[Automated AWS EC2 Deployment Pipeline](https://github.com/Bedru-Mekiyu/first-CI-CD)**  
@@ -61,6 +61,15 @@ Software Engineering student at Addis Ababa University (2023–2027) building re
 - **Backend:** Node.js, Express.js (v4/v5), PHP (Laravel 11, Filament v3), Python (FastAPI, Pydantic), REST APIs, WebSockets (Socket.IO)
 - **Databases:** PostgreSQL, MongoDB (Mongoose), MySQL, Prisma ORM, Supabase (Postgres & RLS), Redis
 - **DevOps & Tools:** Docker, Docker Compose, Nginx, GitHub Actions, AWS (EC2, S3, SES, IAM), Linux, Git, Vite
+
+---
+
+## Certifications & Professional Learning
+
+- **[AWS Cloud Solutions Architect](https://coursera.org/verify/professional-cert/18TDEZ7Q7OXX)** — Professional Certificate, Amazon Web Services (Coursera)
+- **[AWS Cloud Support Associate](https://coursera.org/verify/professional-cert/F3I1AB3RHF4O)** — Professional Certificate, Amazon Web Services (Coursera)
+- **[DevOps Complete](https://www.credly.com/badges/2832eb98-2580-4f1a-bc33-ed693cd47536/public_url)** — O'Reilly (Credly)
+- **[Linux Command Line](https://www.credly.com/badges/249da16c-9b49-4741-b00f-f5dd07d59bc6/public_url)** — O'Reilly (Credly)
 
 ---
 
