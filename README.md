@@ -65,7 +65,7 @@ Software Engineering student at Addis Ababa University (2023–2027) building re
 ---
 
 ## Certifications & Professional Learning
-
+- **[Full Stack (MERN) Web Development](https://mizantechinstitute.com/verify?id=MiT-CERT-2026-62981)** — Mizan Institute of Technology
 - **[AWS Cloud Solutions Architect](https://coursera.org/verify/professional-cert/18TDEZ7Q7OXX)** — Professional Certificate, Amazon Web Services (Coursera)
 - **[AWS Cloud Support Associate](https://coursera.org/verify/professional-cert/F3I1AB3RHF4O)** — Professional Certificate, Amazon Web Services (Coursera)
 - **[DevOps Complete](https://www.credly.com/badges/2832eb98-2580-4f1a-bc33-ed693cd47536/public_url)** — O'Reilly (Credly)
